@@ -1,5 +1,6 @@
-package com.verimi.kitchenservice;
+package com.verimi.kitchenservice.repository;
 
+import com.verimi.kitchenservice.repository.entity.DayOfService;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Date;
