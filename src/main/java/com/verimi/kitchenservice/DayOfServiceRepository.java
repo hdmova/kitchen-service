@@ -6,4 +6,6 @@ import java.util.Date;
 
 public interface DayOfServiceRepository extends CrudRepository<DayOfService, Long> {
     DayOfService findByCalendarDay(Date calendarDay);
+
+    int deleteByCalendarDay(Date calendarDay);
 }
